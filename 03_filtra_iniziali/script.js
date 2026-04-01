@@ -8,7 +8,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 const filtraPerLettera = (names)=>{
     const lettera = names[0][0].toLowerCase();
     let risulto = [];
-    for(i=1 ; i<names.length ; i++){
+    for(i=0; i<names.length ; i++){
         let nome = names[i];
         let iniziale = nome[0];
         if(iniziale.toLowerCase() === lettera){
