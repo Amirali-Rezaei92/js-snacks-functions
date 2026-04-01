@@ -19,5 +19,5 @@ const prendiIniziali = (names) => {
 
 console.log(prendiIniziali(names));
 
-
+    
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
